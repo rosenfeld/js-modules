@@ -5,6 +5,14 @@ This project provides an "extendClass" function that will allow you to split you
 
 See [_spec/modules\_spec.coffee_](js-modules/blob/master/spec/modules_spec.coffee) for example usage.
 
+Another possible style exampe which that is not explored in the specs is something like this:
+
+```javascript
+extendClass 'utils.Helper', ->
+  localFunction = -> 'local only'
+  @someMethod = -> 'exported method'
+```
+
 # Usage with plain JavaScript
 
 I don't write JavaScript anymore, but if you do, you can compile the source to JavaScript and have
