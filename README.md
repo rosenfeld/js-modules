@@ -33,3 +33,7 @@ runner I guess you could run the spec suite in the browser as well.
 
 Actually I only used Node.js for testing because it was simpler, but I usually use this helper
 function for browser client-side programming.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rosenfeld/js-modules/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
